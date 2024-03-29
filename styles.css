@@ -14,10 +14,17 @@ font-style: normal;
 
 @font-face {
     font-family: 'Roboto';
-    src: url('fonts//Roboto-Black.ttf') format('truetype'); /* Bold font */
+    src: url('fonts//Roboto-Black.ttf') format('truetype'); /* Bolder font */
     font-weight: 900;
     font-style: normal;
     }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: url('fonts//Roboto-LightItalic.ttf') format('truetype'); /* Light italic font */
+        font-weight: lighter;
+        font-style: normal;
+        }
 
 body {
     margin: 0;
@@ -98,7 +105,7 @@ body {
 }
 
 .information-section {
-    padding: 0px 200px 150px 200px;
+    padding: 0px 200px 100px 200px;
 }
 
 
@@ -124,7 +131,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 25px;
-    padding-bottom: 100px;
 }
 
 .card {
@@ -140,3 +146,29 @@ body {
     width: 150px;
     text-align: center;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    width: 830px;
+}
+
+.quote-source {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    width: 830px;
+    text-align: right;
+    padding-right: 45px;
+}
+
