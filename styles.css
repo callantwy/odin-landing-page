@@ -23,7 +23,7 @@ font-style: normal;
         font-family: 'Roboto';
         src: url('fonts//Roboto-LightItalic.ttf') format('truetype'); /* Light italic font */
         font-weight: lighter;
-        font-style: normal;
+        font-style: italic;
         }
 
 body {
@@ -172,3 +172,40 @@ body {
     padding-right: 45px;
 }
 
+
+.signup-section {
+    padding: 100px 200px 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container {
+    background-color: #3882f6;
+    width: 1100px;
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-text {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.signup-bold {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    padding: 8px 25px;
+    border: solid #f9faf8 2px;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 15px;
+}
